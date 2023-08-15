@@ -14,7 +14,7 @@ const Task = ({ task, onDelete, onToggle }) => {
         {task.text}{' '} 
         <FaTimes 
           style={{ 
-            color: 'red', 
+            color: '#ff000085', 
             cursor: 'pointer',
             userSelect: 'none',
           }}
